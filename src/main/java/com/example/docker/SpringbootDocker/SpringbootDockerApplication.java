@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringbootDockerApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Test App 12344");
 		SpringApplication.run(SpringbootDockerApplication.class, args);
 	}
 
