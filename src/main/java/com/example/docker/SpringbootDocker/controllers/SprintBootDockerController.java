@@ -9,6 +9,11 @@ public class SprintBootDockerController {
 	
 	@GetMapping
 	public String hello() {
+		for (int i = 0; i < 5; i++) {
+		
+			System.out.println("Print message for 5 times");
+			
+		}
 		return "Hello from AWS Spring Boot Docker";
 	}
 }
